@@ -33,6 +33,11 @@
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
+    "@nestjs/platform-express": "^8.0.0",
+    "apollo-server-express": "^3.3.0",
+    "firebase-admin": "^9.11.1",
+    "graphql": "^15.5.2",
+    "graphql-tools": "^8.2.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0"
@@ -76,5 +81,9 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "engines": {
+    "node": "12"
+  },
+  "main": "dist/index.js"
 }
